@@ -1,0 +1,100 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .big-box {
+    position: relative;
+    width: 590px;
+    height: 635px;
+    margin-left: 30%;
+    margin-top: 120px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 8px 53px 0px rgba(0, 120, 240, 0.25);
+  }
+  .login-pic {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 120, 240, 0.02);
+    box-shadow: 0px 4px 4px 0px rgba(0, 120, 240, 0.05);
+    border-radius: 50px;
+    left: 245px;
+    top: -51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-pic img {
+    width: 33.33px;
+    height: 33.33px;
+  }
+  .big-box h1 {
+    font-family: "PublicSans";
+    font-weight: 400;
+    margin-left: 261px;
+    padding-top: 95px;
+    font-size: 26px;
+    color: rgba(0, 120, 240, 0.5);
+    font-weight: 400;
+  }
+  .greeting {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 40%;
+    margin-top: 52px;
+    width: 454px;
+    font-family: "PublicSans";
+    font-weight: 400;
+  }
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+    margin-top: 37px;
+  }
+  .input-box input {
+    width: 289px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.44);
+    padding-bottom: 8px;
+    font-size: 17.93px;
+    color: rgba(0, 0, 0, 0.44);
+    font-family: "PublicSans";
+  }
+  .input-button {
+    background-color: white;
+    border: none;
+    margin-left: -34px;
+    cursor: pointer;
+  }
+  .login-button {
+    position: absolute;
+    width: 288.09px;
+    height: 51.22px;
+    background-color: rgba(0, 120, 240, 0.1);
+    border: 1px solid rgba(0, 120, 240, 1);
+    border-radius: 10px;
+    bottom: 61px;
+    left: 151px;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-size: 15.36px;
+    font-weight: 500;
+    color: rgba(0, 120, 240, 1);
+  }
+  .name {
+    padding-top: 79px;
+    font-size: 18px;
+    color: rgba(0, 120, 240, 0.5);
+    width: 454px;
+    font-family: "PublicSans";
+    font-weight: 400;
+    text-align: center;
+  }
+  .avatar {
+    width: 267px;
+    height: 267px;
+    margin-left: 93px;
+    margin-top: 64px;
+  }
